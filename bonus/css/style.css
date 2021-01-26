@@ -1,0 +1,135 @@
+/* Regole pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(161,160,160);
+}
+
+.margini{
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+.layover{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* header */
+header img{
+    width: 10%;
+    height: auto;
+    border-right: 1px solid grey;
+    padding: 10px;
+}
+
+header li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 12px;
+    text-shadow: 1px 1px black;
+}
+
+li a{
+    text-decoration: none;
+}
+
+/* prima sezione */
+.jumbotron{
+    position: relative;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+.jumbotron .testo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    padding: 5%;
+}
+
+.jumbotron h2, .jumbotron h6{
+    color: white;
+}
+
+/* regole main */
+.column{
+    float: left;
+}
+
+.title{
+    width: 100%;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+.row{
+    margin-bottom: 10px;
+    padding: 15px 0;
+}
+
+.left .img1, .right .img2, .middle .banner{
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column h3{
+    margin: 5px 0;
+}
+
+.left,.right{
+    width: 18%;
+    position: relative;
+}
+
+/* colonna sinistra */
+.img1{
+    background-image: url(../img/img-1.jpg);
+}
+
+/* colonna centrale */
+.middle{
+    width: 60%;
+    margin: 0 2%;
+}
+
+.banner{
+    background-image: url(../img/banner-2.jpg);
+}
+
+/* colonna destra */
+.img2{
+    background-image: url(../img/img-2.jpg);
+}
+
+/* footer */
+footer{
+    margin: 10px auto 0;
+    width: 90%;
+    text-align: center;
+}
+
+footer span{
+    color: red;
+}
