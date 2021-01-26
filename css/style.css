@@ -129,6 +129,9 @@ h1{
 footer{
     margin: 10px auto 0;
     width: 90%;
-    height: 30px;
-    background-color: purple;
+    text-align: center;
+}
+
+footer span{
+    color: red;
 }
