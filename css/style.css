@@ -1,0 +1,64 @@
+/* Regole pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.margini{
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+/* header */
+header{
+    height: 60px;
+    background-color: pink;
+}
+
+/* prima sezione */
+.jumbotron{
+    height: 250px;
+    background-color: yellow;
+}
+
+/* regole main */
+.column{
+    background-color: lightblue;
+    height: 220px;
+    float: left;
+
+}
+
+.title{
+    height: 40px;
+}
+
+.row{
+    margin-bottom: 10px;
+    background-color: blue;
+    padding: 15px 0;
+}
+
+.left,.right{
+    width: 18%;
+}
+
+.middle{
+    width: 60%;
+    margin: 0 2%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* footer */
+footer{
+    margin: 10px auto 0;
+    width: 90%;
+    height: 30px;
+    background-color: purple;
+}
