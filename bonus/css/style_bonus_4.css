@@ -144,6 +144,8 @@ h1{
 .column p{
     background-color: rgba(255,212,231,0.5);
     text-align: center;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .column h3{
