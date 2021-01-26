@@ -45,7 +45,7 @@ li a{
     position: relative;
     height: 400px;
     border-radius: 10px;
-    background-image: url(../img/banner.jpg);
+    background-image: url(../../img/banner.jpg);
     background-position: center;
     /* background-repeat: no-repeat; */
 }
@@ -99,28 +99,19 @@ h1{
 }
 
 .left,.right{
-    width: 18%;
+    width: 40%;
     position: relative;
+    margin: 0 5%;
 }
 
 /* colonna sinistra */
 .img1{
-    background-image: url(../img/img-1.jpg);
-}
-
-/* colonna centrale */
-.middle{
-    width: 60%;
-    margin: 0 2%;
-}
-
-.banner{
-    background-image: url(../img/banner-2.jpg);
+    background-image: url(../../img/img-1.jpg);
 }
 
 /* colonna destra */
 .img2{
-    background-image: url(../img/img-2.jpg);
+    background-image: url(../../img/img-2.jpg);
 }
 
 /* footer */
