@@ -12,6 +12,15 @@
     margin: 20px auto 0;
 }
 
+.layover{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 /* header */
 
 header img{
@@ -43,13 +52,6 @@ li a{
     /* background-repeat: no-repeat; */
 }
 
-.layover{
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
 .jumbotron .testo{
     position: absolute;
     bottom: 0;
@@ -65,29 +67,29 @@ li a{
 /* regole main */
 
 .column{
-    background-color: lightblue;
-    height: 220px;
     float: left;
-
 }
 
 .title{
-    height: 40px;
+    width: 100%;
+}
+
+h1{
+    color: rgb(0, 0, 0);
 }
 
 .row{
     margin-bottom: 10px;
-    background-color: blue;
+    /* background-color: blue; */
     padding: 15px 0;
 }
 
-.left,.right{
-    width: 18%;
-}
-
-.middle{
-    width: 60%;
-    margin: 0 2%;
+.left .img1, .right .img2, .middle .banner{
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .row::after{
@@ -96,6 +98,33 @@ li a{
     clear: both;
 }
 
+/* colonna sinistra */
+.left,.right{
+    width: 18%;
+    position: relative;
+}
+
+.img1{
+    background-image: url(../img/img-1.jpg);
+}
+
+.column h3{
+    margin: 5px 0;
+}
+
+/* colonna centrale */
+.middle{
+    width: 60%;
+    margin: 0 2%;
+}
+
+.banner{
+    background-image: url(../img/banner-2.jpg);
+}
+/* colonna destra */
+.img2{
+    background-image: url(../img/img-2.jpg);
+}
 /* footer */
 footer{
     margin: 10px auto 0;
